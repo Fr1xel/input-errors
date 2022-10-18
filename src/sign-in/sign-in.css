@@ -67,6 +67,7 @@
   margin-top: 10px;
 }
 .submit-button{
+  display: block;
   margin-top:2rem;
   padding:1rem 2rem;
   border:0;

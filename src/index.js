@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Form from './form/form';
+import Form from './form/log-in';
 import SignIn from './sign-in/signIn';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from './home/homePage';
+import LogIn from './form/log-in';
 
 const routes = createBrowserRouter([
   {
@@ -14,7 +15,7 @@ const routes = createBrowserRouter([
   },
   {
     path:"/log-in",
-    element: <Form />
+    element: <LogIn />
   },
   {
     path:"/sign-in",

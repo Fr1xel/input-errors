@@ -1,0 +1,33 @@
+.login-wrapper {
+  background-color: rgb(31, 141, 31);
+  width: 20%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.login-header {
+  color: rgb(31, 141, 31);
+}
+.to-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-input {
+  border-radius: 10px;
+  height: 1.5rem;
+  border: 0;
+}
+.login-submit-button {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border: 0;
+  background-color: rgb(209, 176, 44);
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.login-subtitle{
+    color: white;
+}
