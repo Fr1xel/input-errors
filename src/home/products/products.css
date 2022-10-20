@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(34, 106, 195);
+}
+.energy-title{
+    margin-top: 30vh;
+    font-weight: 900;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100px;
+}
+.products-home{
+    margin-top:40vh;
+    background-color:white;
+    color:rgb(34, 106, 195) ;
+}
+.products-title{
+    margin-top:5rem;
+    font-size: 75px;
+    padding: 5rem 0rem;
+}
+.title-arrow-down::before{
+    font-size: 50px;
+    color: white;
+    animation-name:jumping-arrow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes jumping-arrow{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(50px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+}
+.products-wrapper{
+    margin-top:5rem;
+}
+.product-div{
+    background-color: rgb(26, 170, 26);
+    border-radius: 1rem;
+    width:30%;
+}
+.special-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-image{
+    width:75%;
+}

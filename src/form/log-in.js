@@ -22,7 +22,7 @@ const LogIn = () => {
 
   const submitHandler = (data) => {
     axios
-      .post("https://api.enovaapp.com/login", data)
+      .post(`${process.env.REACT_APP_BASE_URL}/login`, data)
       .then((res) => {
         localStorage.setItem("userCredentials", JSON.stringify(res.data));
         setLogingInFinished(true);

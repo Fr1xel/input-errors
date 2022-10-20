@@ -28,7 +28,7 @@ const SignIn = () => {
 
   const registerSubmitHandle = async (data) => {
     const registerData = await axios
-      .post("https://api.enovaapp.com/signup", {
+      .post(`${process.env.REACT_APP_BASE_URL}/signup`, {
         type: data.type,
         firstName: data.name,
         lastName: data.lastName,
