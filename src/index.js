@@ -6,6 +6,7 @@ import SignIn from './sign-in/signIn';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from './home/homePage';
 import LogIn from './form/log-in';
+import Marketing from './marketing/marketing';
 
 const routes = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const routes = createBrowserRouter([
   {
     path:"/sign-in",
     element: <SignIn />
+  },
+  {
+    path:"/products/:id",
+    element: <Marketing />
   }
 ])
 

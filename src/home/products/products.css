@@ -1,5 +1,9 @@
 body{
     background-color: rgb(34, 106, 195);
+    overflow-x: hidden;
+}
+.overflow-x-hidden{
+    overflow-x: hidden !important;
 }
 .energy-title{
     margin-top: 30vh;
@@ -8,14 +12,16 @@ body{
     font-size: 100px;
 }
 .products-home{
-    margin-top:40vh;
+    margin-top:30vh;
     background-color:white;
+}
+.color-energy{
     color:rgb(34, 106, 195) ;
 }
 .products-title{
-    margin-top:5rem;
+    margin-top:17rem;
     font-size: 75px;
-    padding: 5rem 0rem;
+    padding: 10rem 0rem 5rem 0rem;
 }
 .title-arrow-down::before{
     font-size: 50px;
@@ -50,4 +56,15 @@ body{
 }
 .product-image{
     width:75%;
+}
+.wave{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.shape-fill{
+    fill: rgb(34, 106, 195);
 }
